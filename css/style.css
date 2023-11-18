@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Main Styles */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Bootstrap 5 */
+.bg-primary {
+	background: #380d62 !important;
+}
+.bg-secondary {
+	background: #fdf9ff !important;
+}
+
+/* Utility Classes */
+.py-6 {
+	padding: 120px 0;
+}
+
+.py-7 {
+	padding: 80px 0;
+}
+
+/* Header */
+.header {
+	background-image: linear-gradient(to right, #380d62, #10054a);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+	.py-6 {
+		padding: 50px 0;
+	}
+	.py-7 {
+		padding: 60px 0;
+	}
+	.steps .pb-4 {
+		padding-right: 80px !important;
+	}
+}
