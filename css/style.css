@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Main Styles */
+/* Main Styling */
 html,
 body {
 	font-family: 'Montserrat', sans-serif;
 }
 
-/* Bootstrap 5 */
+/* Bootstrap Styles */
 .bg-primary {
 	background: #380d62 !important;
 }
@@ -23,8 +23,7 @@ body {
 	padding: 80px 0;
 }
 
-/* Header */
-.header {
+header {
 	background-image: linear-gradient(to right, #380d62, #10054a);
 }
 
